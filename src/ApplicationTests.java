@@ -22,7 +22,7 @@ public class ApplicationTests {
 
 	@Test(timeout=1000)
 	public void Test_Calculations_Multiply_Fail() {
-		assertNotEquals("Should not be 10", 11,_calc.Multiply(_valueA, _valueB));	
+		assertNotEquals("Should not be 10", 10,_calc.Multiply(_valueA, _valueB));	
 	}
 	
 }
