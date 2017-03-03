@@ -2,7 +2,7 @@ package Application;
 
 public class Calculations {
 	
-	 public int Multiply(int a, int b){
+	 public int Multiply(string a, int b){
 		    return a*b;
 		  }
 
